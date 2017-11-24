@@ -27,3 +27,9 @@ When want to create an experimental branch or a different version of the origina
 (git branch "name of branch")
 
 (git log --graph --oneline master coins)
+
+(git checkout -b "new branch name") creates a new branch and checks out on that branch
+
+How do the diagrams help you visualize the branch structure?
+
+By visually aiding in showing in which commit the new branch started.
