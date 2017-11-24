@@ -22,3 +22,8 @@ By staging the file after the logical change.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When want to create an experimental branch or a different version of the original. That way can keep both versions.
+
+(git branch)
+(git branch "name of branch")
+
+(git log --graph --oneline master coins)
