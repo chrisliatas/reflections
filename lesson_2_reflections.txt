@@ -12,3 +12,5 @@ over the files we want to be tracked by git.
 
 (git commit)
 (git commit -m "Commit message")
+
+Udacity Git Commit Message Style Guide: http://udacity.github.io/git-styleguide/
