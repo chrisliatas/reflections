@@ -1,3 +1,14 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Git starts tracking by adding some hidden files under ".git" directory in the directory it has been initialized. We initialize the repo to start writing history of the changes.
+Git starts tracking by adding some hidden files under ".git" directory in the directory it has been initialized.
+We initialize the repo to start writing history of the changes.
+
+(git init)
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is an intermediate level between the repository and the working directory allowing more control
+over the files we want to be tracked by git.
+
+(git commit)
+(git commit -m "Commit message")
