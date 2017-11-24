@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git starts tracking by adding some hidden files under ".git" directory in the directory it has been initialized. We initialize the repo to start writing history of the changes.
