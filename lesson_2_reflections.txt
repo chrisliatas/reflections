@@ -18,3 +18,7 @@ Udacity Git Commit Message Style Guide: http://udacity.github.io/git-styleguide/
 How can you use the staging area to make sure you have one commit per logical change?
 
 By staging the file after the logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When want to create an experimental branch or a different version of the original. That way can keep both versions.
