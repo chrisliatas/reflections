@@ -1,0 +1,8 @@
+GitHub
+
+(git remote) -> Show remotes connected
+(git remote add "new remote local name" url) -> create new remote repo connection eg. "origin"
+(git remote -v) -> Show remotes info verbose
+(git push "remote to send info" "branch to send")
+
+
