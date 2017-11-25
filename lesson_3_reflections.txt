@@ -32,3 +32,8 @@ see changes etc.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 That you can see what changes have been introduced to the remote since then and have a copy even if the remote is deleted.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Probably using something like dropbox or similar. Updating would be easier and less typing for the updates, but you would lose
+all the control over versioning and collaboration.
