@@ -8,3 +8,10 @@ GitHub
 When would you want to use a remote repository rather than keeping all your work local?
 
 When you want to colaborate with others, share your work/thoughts, or distribute your work.
+
+(git pull "remote to send info" "branch to send") -> eg. git pull origin master
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Because you might want to check what git will pull from the remote. Someone else might have changed the file on the remote and you might
+not want to pull that change locally.
