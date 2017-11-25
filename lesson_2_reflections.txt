@@ -52,3 +52,11 @@ actually parent-child. So, git show shows the differences of a commit compared t
 
 The result is a new commit with the branches merged. We make the diagram show that the two branches come together into one, to
 represent the merge.
+
+--> online diagramming tool like gliffy (https://www.gliffy.com/) or yUML (http://yuml.me/diagram/activity/draw)
+
+(git log -n 1) Display only 1 commit
+
+- What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: easy and fast merging. Cons: not a lot of control over the final merged file.
