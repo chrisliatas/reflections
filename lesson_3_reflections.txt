@@ -7,7 +7,7 @@ GitHub
 
 When would you want to use a remote repository rather than keeping all your work local?
 
-When you want to colaborate with others, share your work/thoughts, or distribute your work.
+When you want to collaborate with others, share your work/thoughts, or distribute your work.
 
 (git pull "remote to send info" "branch to send") -> eg. git pull origin master
 
@@ -18,12 +18,15 @@ not want to pull that change locally.
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-Forks: only on GitHub is for clonning another user's repository on GitHub. When you want to work on that reposiory without changing the
-original (or do not have permition to change it) you fork it to your own account on GitHub and work from there or clone it locally. Branches 
-are usually different versions of a project that can be clonned individually.
+Forks: only on GitHub is for cloning another user's repository on GitHub. When you want to work on that repository without changing the
+original (or do not have permission to change it) you fork it to your own account on GitHub and work from there or clone it locally. Branches 
+are usually different versions of a project that can be cloned individually.
 
 (git fetch) -> update local copy of origin/master branch without affecting the local master branch. Can then use git log and git diff to
 see changes etc.
+Then use:
+(git diff master origin/master) to examine the differences before doing anything else. If you want to accept the differences can then use:
+(git merge origin/master master)
 
 (git pull origin master) is the same as (git fetch origin) followed by (git merge master origin/master)
 
@@ -37,3 +40,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 Probably using something like dropbox or similar. Updating would be easier and less typing for the updates, but you would lose
 all the control over versioning and collaboration.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When collaborating on GitHub and you do not want to affect the master where other people work on, or you want the changes you make
+to be reviewed first before merging into master. Workign directly on master is much easier.
